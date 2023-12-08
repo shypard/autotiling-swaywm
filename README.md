@@ -1,7 +1,7 @@
 # swaywm autotiling
 
 Small C tool for autotiling `swaywm` windows using the
-[swaywm](https://github.com/shypard/swayipc) library.
+[swayipc](https://github.com/shypard/swayipc) library.
 
 Build as follows:
 
