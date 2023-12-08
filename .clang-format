@@ -1,0 +1,23 @@
+---
+BasedOnStyle: LLVM
+AlignAfterOpenBracket: Align
+AlignConsecutiveAssignments: 'true'
+AlignConsecutiveDeclarations: 'true'
+ColumnLimit: '80'
+PointerAlignment: Left
+TabWidth: 4
+IndentWidth: 4
+UseTab: Never
+BreakBeforeBraces: Linux
+AllowShortIfStatementsOnASingleLine: 'true'
+IndentCaseLabels: false
+
+# Sort includes by global and local header libraries
+IncludeCategories:
+  - Regex: '^<.*\.h>'
+    Priority: 2
+  - Regex: '^"[^"]*\.h"'
+    Priority: 1
+
+IncludeBlocks: Regroup
+...
